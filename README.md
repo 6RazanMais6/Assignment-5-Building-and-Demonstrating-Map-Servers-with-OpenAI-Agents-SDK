@@ -1,12 +1,12 @@
-# Assignment-5-Building-and-Demonstrating-Map-Servers-with-OpenAI-Agents-SDK
-# 🗺️ Building and Demonstrating Map Servers with OpenAI Agents SDK
+# Assignment-5
+#  Building and Demonstrating Map Servers with OpenAI Agents SDK
 
 This project was developed as part of the **"Building and Demonstrating Map Servers with OpenAI Agents SDK"** assignment.  
 It showcases how to design, implement, and demonstrate **custom map servers** using the **OpenAI Agents SDK** and the **Model Context Protocol (MCP)** — all within a **Google Colab environment**.
 
 ---
 
-## 📘 Table of Contents
+##  Table of Contents
 - [Overview](#overview)
 - [Learning Objectives](#learning-objectives)
 - [Environment Setup](#environment-setup)
@@ -51,8 +51,9 @@ By completing this project, I learned to:
 - Basic familiarity with `asyncio` and JSON APIs
 
 ###  Installation
-''import asyncio
-from openai_agents_sdk import Agent, Tool  # Example import — adjust if needed''
+```python
+import asyncio
+from openai_agents_sdk import Agent, Tool  
 
 
 ---
