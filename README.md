@@ -69,12 +69,17 @@ from openai_agents_sdk import Agent, Tool
 Function: Performs geocoding — converts a location name into geographic coordinates.
 Example Usage:
 ```bash
-await geo_tool.geocode("Eiffel Tower, Paris")
+ print("\n--- Agent Query 1: Geocode ---")
+    r1 = await Runner.run(agent, "Find coordinates of the Eiffel Tower")
+    print("Response:", r1.final_output)
 ```
 
 Output:
 ```bash
-{"lat": 48.85837, "lon": 2.294481, "display_name": "Eiffel Tower, Paris"}
+--- Agent Query 1: Geocode ---
+Response: The coordinates of the Eiffel Tower are:  
+Latitude: 48.8584  
+Longitude: 2.2945
 ```
 
 2️⃣ RouteServer
@@ -90,12 +95,9 @@ await route_tool.get_route(
 
 Output:
 ```bash
-{
-  "distance_km": 0.44,
-  "steps": [
-    {"instruction": "Travel from point A to point B", "distance_km": 0.44}
-  ]
-}
+--- Agent Query 2: Route ---
+Response: The route from Beirut to Tripoli follows the coastal highway, covering approximately 85 km and typically taking around 1 hour and 30 minutes by car. Let me know if you need step-by-step directions or points of interest along the way!
+
 ```
 3️⃣ POIServer
 
@@ -107,11 +109,9 @@ await poi_tool.search_poi("coffee near Palo Alto")
 
 Output:
 ```bash
-{
-  "results": [
-    {"name": "Central Cafe", "lat": 37.422, "lon": -122.084, "category": "coffee"}
-  ]
-}
+--- Agent Query 3: POI Search ---
+Response: Here is a museum in Paris:
+- Louvre Museum
 ```
 
 ---
