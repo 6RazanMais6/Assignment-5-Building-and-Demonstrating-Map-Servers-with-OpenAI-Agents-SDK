@@ -53,12 +53,12 @@ By completing this project, I learned to:
 ###  Installation
 ```python
 import asyncio
-from openai_agents_sdk import Agent, Tool  
+from openai_agents_sdk import Agent, Tool  ```
 
 
 ---
 
-##  Environment Setup
+### Environment Setup
 
 In your Google Colab notebook, run:
 
