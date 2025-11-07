@@ -63,10 +63,58 @@ from openai_agents_sdk import Agent, Tool
 In your Google Colab notebook, run:
 
 ```bash
-!pip install openai-agents-sdk --upgrade```
+!pip install openai-agents-sdk --upgrade
 
 
 ---
 
 ### Implementation Details
+
+1️⃣ GeoServer
+
+Function: Performs geocoding — converts a location name into geographic coordinates.
+Example Usage:
+
+await geo_tool.geocode("Eiffel Tower, Paris")
+
+
+Output:
+
+{"lat": 48.85837, "lon": 2.294481, "display_name": "Eiffel Tower, Paris"}
+
+2️⃣ RouteServer
+
+Function: Performs routing — computes distance and path between two coordinates.
+Example Usage:
+
+await route_tool.get_route(
+    {"lat":48.85837, "lon":2.29448},
+    {"lat":48.86, "lon":2.3}
+)
+
+
+Output:
+
+{
+  "distance_km": 0.44,
+  "steps": [
+    {"instruction": "Travel from point A to point B", "distance_km": 0.44}
+  ]
+}
+
+3️⃣ POIServer
+
+Function: Performs point-of-interest (POI) search — finds nearby places based on a keyword.
+Example Usage:
+
+await poi_tool.search_poi("coffee near Palo Alto")
+
+
+Output:
+
+{
+  "results": [
+    {"name": "Central Cafe", "lat": 37.422, "lon": -122.084, "category": "coffee"}
+  ]
+}
 
