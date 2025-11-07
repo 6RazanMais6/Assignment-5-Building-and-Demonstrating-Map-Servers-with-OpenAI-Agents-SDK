@@ -53,7 +53,7 @@ By completing this project, I learned to:
 ###  Installation
 ```python
 import asyncio
-from openai_agents_sdk import Agent, Tool  ```
+from openai_agents_sdk import Agent, Tool```
 
 
 ---
@@ -63,4 +63,10 @@ from openai_agents_sdk import Agent, Tool  ```
 In your Google Colab notebook, run:
 
 ```python
-!pip install openai-agents-sdk --upgrade
+!pip install openai-agents-sdk --upgrade```
+
+
+---
+
+### Implementation Details
+
