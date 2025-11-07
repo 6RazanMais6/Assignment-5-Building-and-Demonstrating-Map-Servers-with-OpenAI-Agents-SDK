@@ -15,7 +15,6 @@ It showcases how to design, implement, and demonstrate **custom map servers** us
   - [2. RouteServer](#2-routeserver)
   - [3. POIServer](#3-poiserver)
 - [How to Run in Google Colab](#how-to-run-in-google-colab)
-- [Expected Output](#expected-output)
 - [Screencast Demonstration](#screencast-demonstration)
 
 ---
@@ -82,35 +81,60 @@ Output:
 
 Function: Performs routing — computes distance and path between two coordinates.
 Example Usage:
-
+```bash
 await route_tool.get_route(
     {"lat":48.85837, "lon":2.29448},
     {"lat":48.86, "lon":2.3}
 )
-
+```
 
 Output:
-
+```bash
 {
   "distance_km": 0.44,
   "steps": [
     {"instruction": "Travel from point A to point B", "distance_km": 0.44}
   ]
 }
-
+```
 3️⃣ POIServer
 
 Function: Performs point-of-interest (POI) search — finds nearby places based on a keyword.
 Example Usage:
-
+```bash
 await poi_tool.search_poi("coffee near Palo Alto")
-
+```bash
 
 Output:
-
+```bash
 {
   "results": [
     {"name": "Central Cafe", "lat": 37.422, "lon": -122.084, "category": "coffee"}
   ]
 }
+```
 
+---
+
+## How to Run in Google Colab
+1. Open the provided Colab notebook (Ass5.ipynb).
+
+2. Run all cells sequentially:
+
+Install dependencies
+
+Define map servers
+
+Register the tools
+
+Execute discovery and demo cells
+
+3. Expected discovery output:
+   ```bash
+   Discovered: ['geoserver', 'routeserver', 'poiserver']
+```
+
+
+---
+
+## Screencast Demonstration
