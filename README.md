@@ -87,10 +87,9 @@ Longitude: 2.2945
 Function: Performs routing — computes distance and path between two coordinates.
 Example Usage:
 ```bash
-await route_tool.get_route(
-    {"lat":48.85837, "lon":2.29448},
-    {"lat":48.86, "lon":2.3}
-)
+ print("\n--- Agent Query 2: Route ---")
+    r2 = await Runner.run(agent, "Find route from Beirut to Tripoli")
+    print("Response:", r2.final_output)
 ```
 
 Output:
@@ -104,7 +103,9 @@ Response: The route from Beirut to Tripoli follows the coastal highway, covering
 Function: Performs point-of-interest (POI) search — finds nearby places based on a keyword.
 Example Usage:
 ```bash
-await poi_tool.search_poi("coffee near Palo Alto")
+    print("\n--- Agent Query 3: POI Search ---")
+    r3 = await Runner.run(agent, "Search museums in Paris")
+    print("Response:", r3.final_output)
 ```bash
 
 Output:
