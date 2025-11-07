@@ -51,9 +51,9 @@ By completing this project, I learned to:
 - Basic familiarity with `asyncio` and JSON APIs
 
 ###  Installation
-```python
+```bash
 import asyncio
-from openai_agents_sdk import Agent, Tool```
+from openai_agents_sdk import Agent, Tool
 
 
 ---
