@@ -58,11 +58,11 @@ from openai_agents_sdk import Agent, Tool
 
 ---
 
-### Environment Setup
+###  Environment Setup
 
 In your Google Colab notebook, run:
 
-```python
+```bash
 !pip install openai-agents-sdk --upgrade```
 
 
