@@ -132,9 +132,20 @@ Execute discovery and demo cells
 3. Expected discovery output:
    ```bash
    Discovered: ['geoserver', 'routeserver', 'poiserver']
-```
-
+   ```
 
 ---
 
 ## Screencast Demonstration
+
+A screencast video demonstrates:
+
+Project overview and concept explanation
+
+Code walkthrough in Google Colab
+
+Live execution of the three map servers
+
+Discussion of challenges and next steps
+
+Video Link: 
