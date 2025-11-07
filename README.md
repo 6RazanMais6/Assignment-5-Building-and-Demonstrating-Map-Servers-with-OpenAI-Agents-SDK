@@ -69,13 +69,14 @@ from openai_agents_sdk import Agent, Tool
 
 Function: Performs geocoding — converts a location name into geographic coordinates.
 Example Usage:
-
+```bash
 await geo_tool.geocode("Eiffel Tower, Paris")
-
+```
 
 Output:
-
+```bash
 {"lat": 48.85837, "lon": 2.294481, "display_name": "Eiffel Tower, Paris"}
+```
 
 2️⃣ RouteServer
 
