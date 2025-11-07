@@ -54,11 +54,12 @@ By completing this project, I learned to:
 In your Google Colab notebook, run:
 ```bash
 pip install openai-agents-sdk --upgrade
-
+```
 Then import required libraries:
 ```bash
 import asyncio
 from openai_agents_sdk import Agent, Tool
+```
 
 ---
 
