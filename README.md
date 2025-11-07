@@ -53,7 +53,7 @@ By completing this project, I learned to:
 ###  Installation
 In your Google Colab notebook, run:
 ```bash
-!pip install openai-agents-sdk --upgrade
+pip install openai-agents-sdk --upgrade
 
 Then import required libraries:
 ```bash
