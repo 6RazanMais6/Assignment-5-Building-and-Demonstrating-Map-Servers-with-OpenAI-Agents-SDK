@@ -149,5 +149,5 @@ Live execution of the three map servers
 
 Discussion of challenges and next steps
 
-Video Link:[![Watch the video](https://img.icons8.com/ios-filled/100/fa314a/play--v1.png)](https://mailaub-my.sharepoint.com/:v:/g/personal/rre30_mail_aub_edu/IQCMBdnf2_W4S4HTzsPDioAvAR-qWsTL58DiLmehoyfbCwQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&email=mnl03%40mail.aub.edu&e=SpidNn)
+Video Link:[(https://img.shields.io/badge/Watch%20Video-%F0%9F%8E%A5-red)](https://mailaub-my.sharepoint.com/:v:/g/personal/rre30_mail_aub_edu/IQCMBdnf2_W4S4HTzsPDioAvAR-qWsTL58DiLmehoyfbCwQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&email=mnl03%40mail.aub.edu&e=SpidNn)
 
